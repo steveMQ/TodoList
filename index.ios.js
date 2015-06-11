@@ -53,7 +53,7 @@ class TodoList extends Component {
             });
           }}>
 
-          <AddTask/>  
+          <AddTask/>
 
         </TabBarIOS.Item>
 
