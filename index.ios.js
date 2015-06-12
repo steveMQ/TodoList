@@ -33,7 +33,7 @@ class TodoList extends Component {
 
         <TabBarIOS.Item
           selected={this.state.selectedTab === 'tasklist'}
-          icon={{uri: 'tasklist'}}
+          title = 'Task List'
           onPress= { () => {
             this.setState({
               selectedTab: 'tasklist'
@@ -46,7 +46,7 @@ class TodoList extends Component {
 
         <TabBarIOS.Item
           selected={this.state.selectedTab === 'addtask'}
-          icon={{uri: 'addtask'}}
+          title="Add Task"
           onPress= { () => {
             this.setState({
               selectedTab: 'addtask'

@@ -1,6 +1,6 @@
 'use strict'
 
-var React = requite('react-native');
+var React = require('react-native');
 
 var {
   StyleSheet,
@@ -37,4 +37,4 @@ class AddTask extends Component {
 
 }
 
-module.exports = Search;
+module.exports = AddTask;
